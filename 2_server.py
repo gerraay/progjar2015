@@ -52,7 +52,7 @@ def server():
 						if temp1[0]=="login" :
 							log_in(sock, str(temp1[1]))
 								
-						elif temp1[0]=="send" :
+						elif temp1[0]=="sendto" :
 							login = 0
 							user = "" # inisialisasi user yang kosong
 							for x in range (len(NAME_LIST)):
