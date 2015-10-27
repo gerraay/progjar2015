@@ -61,7 +61,11 @@ def client():
 					else:
 						x.send(temp)
 
+<<<<<<< HEAD
 				elif temp1[0]=="send" :
+=======
+				elif temp1[0]=="sendto" :
+>>>>>>> 6e1e4e02399e89eb041a067dcf269241297b375e
 					if d<3:
 						print('Perintah Send salah')
 					else:
@@ -78,4 +82,8 @@ def client():
 
 				sys.stdout.write('## '); sys.stdout.flush() 
 
+<<<<<<< HEAD
 client()
+=======
+client()
+>>>>>>> 6e1e4e02399e89eb041a067dcf269241297b375e
