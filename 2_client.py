@@ -61,7 +61,7 @@ def client():
 					else:
 						x.send(temp)
 
-				elif temp1[0]=="send" :
+				elif temp1[0]=="sendto" :
 					if d<3:
 						print('Perintah Send salah')
 					else:
